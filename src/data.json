@@ -1,0 +1,116 @@
+{
+    "drugs": [
+        {
+            "id": "1",
+            "name": "yescarta",
+            "grade_types": [
+                {
+                    "name": "crs",
+                    "grades": [
+                        {
+                            "name": "grade1",
+                            "description": "1",
+                            "response": "1"
+                        },
+                        {
+                            "name": "grade2",
+                            "description": "1",
+                            "response": "1"
+                        },
+                        {
+                            "name": "grade3",
+                            "description": "1",
+                            "response": "1"
+                        },
+                        {
+                            "name": "grade4",
+                            "description": "1",
+                            "response": "1"
+                        }
+                    ]
+                },
+                {
+                    "name": "neurotox",
+                    "grades": [
+                        {
+                            "name": "grade1",
+                            "description": "1",
+                            "response": "1"
+                        },
+                        {
+                            "name": "grade2",
+                            "description": "1",
+                            "response": "1"
+                        },
+                        {
+                            "name": "grade3",
+                            "description": "1",
+                            "response": "1"
+                        },
+                        {
+                            "name": "grade4",
+                            "description": "1",
+                            "response": "1"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "2",
+            "name": "matthew's drug",
+            "grade_types": [
+                {
+                    "name": "crs",
+                    "grades": [
+                        {
+                            "name": "grade1",
+                            "description": "1",
+                            "response": "1"
+                        },
+                        {
+                            "name": "grade2",
+                            "description": "1",
+                            "response": "1"
+                        },
+                        {
+                            "name": "grade3",
+                            "description": "1",
+                            "response": "1"
+                        },
+                        {
+                            "name": "grade4",
+                            "description": "1",
+                            "response": "1"
+                        }
+                    ]
+                },
+                {
+                    "name": "neurotox",
+                    "grades": [
+                        {
+                            "name": "grade1",
+                            "description": "1",
+                            "response": "1"
+                        },
+                        {
+                            "name": "grade2",
+                            "description": "1",
+                            "response": "1"
+                        },
+                        {
+                            "name": "grade3",
+                            "description": "1",
+                            "response": "1"
+                        },
+                        {
+                            "name": "grade4",
+                            "description": "1",
+                            "response": "1"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

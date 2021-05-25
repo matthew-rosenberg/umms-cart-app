@@ -1,10 +1,12 @@
-import logo from './logo.svg';
 import './App.css';
+import { Container } from 'react-bootstrap'
+import Home from './HomePage/Home';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
+    <Container fluid className="App">
+      <Home></Home>
+      {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
@@ -17,8 +19,8 @@ function App() {
         >
           Learn React
         </a>
-      </header>
-    </div>
+      </header> */}
+    </Container>
   );
 }
 
