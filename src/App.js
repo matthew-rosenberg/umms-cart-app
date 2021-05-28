@@ -1,26 +1,41 @@
 import './App.css';
 import { Container } from 'react-bootstrap'
 import Home from './HomePage/Home';
+import ToxicityManagement from './ToxManagementPage/ToxManagement';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link,
+} from "react-router-dom";
+import ManagementType from './ManagementTypePage/ManagementType';
+import TreatmentGuide from './TreatmentGuidePage/TreatmentGuide';
+
+const data = require('./data.json');
 
 function App() {
+
   return (
-    <Container fluid className="App">
-      <Home></Home>
-      {/* <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header> */}
-    </Container>
+    <Router>
+      <Container fluid className="App">
+        <Switch>
+        <Route path="/toxicitymanagement/:drugtype/:managementtype"           
+          render={(props) => (
+            <TreatmentGuide {...props} data={data} />
+           )}/>
+          <Route path="/toxicitymanagement/:drugtype"           
+          render={(props) => (
+            <ManagementType {...props} data={data} />
+           )}/>
+          <Route exact path="/toxicitymanagement"
+           render={(props) => (
+            <ToxicityManagement {...props} data={data} />
+           )}/>
+          <Route path="/" component={Home} />
+        </Switch>
+      </Container>
+    </Router>
+
   );
 }
 

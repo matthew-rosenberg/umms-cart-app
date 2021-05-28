@@ -5,6 +5,7 @@ import { JournalMedical, InfoCircle } from 'react-bootstrap-icons';
 
 export const StyledLogo = styled.img`
     width: 90%;
+    height: 100%;
     // margin-top: 5%;
 `;
 
