@@ -16,5 +16,17 @@ export const queryData = (data, nameList) => {
 }
 
 export const handleNextPageClick = (history, next) => {
-  history.push(`${window.location.pathname}/${next}`);
+  const url = endInSlash(window.location.pathname);
+  const new_url = `${url}${next}`;
+  console.log(Boolean(url));
+  console.log(url);
+  console.log(new_url);
+  history.push(new_url);
+};
+
+const endInSlash = (url) => {
+  if (url.substr(-1) !== '/') {
+    url += "/";
+  }
+  return url;
 };
