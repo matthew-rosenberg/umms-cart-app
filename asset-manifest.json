@@ -1,26 +1,28 @@
 {
   "files": {
-    "main.css": "/static/css/main.1635e87c.chunk.css",
-    "main.js": "/static/js/main.b50a5f99.chunk.js",
-    "main.js.map": "/static/js/main.b50a5f99.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.19f8a85c.js",
-    "runtime-main.js.map": "/static/js/runtime-main.19f8a85c.js.map",
+    "main.css": "/static/css/main.19d73fd7.chunk.css",
+    "main.js": "/static/js/main.d23fc9bc.chunk.js",
+    "main.js.map": "/static/js/main.d23fc9bc.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.d448870e.js",
+    "runtime-main.js.map": "/static/js/runtime-main.d448870e.js.map",
     "static/css/2.4c97ca4f.chunk.css": "/static/css/2.4c97ca4f.chunk.css",
-    "static/js/2.0691c128.chunk.js": "/static/js/2.0691c128.chunk.js",
-    "static/js/2.0691c128.chunk.js.map": "/static/js/2.0691c128.chunk.js.map",
-    "static/js/3.fc2c6294.chunk.js": "/static/js/3.fc2c6294.chunk.js",
-    "static/js/3.fc2c6294.chunk.js.map": "/static/js/3.fc2c6294.chunk.js.map",
+    "static/js/2.c79576c6.chunk.js": "/static/js/2.c79576c6.chunk.js",
+    "static/js/2.c79576c6.chunk.js.map": "/static/js/2.c79576c6.chunk.js.map",
+    "static/js/3.6818b87e.chunk.js": "/static/js/3.6818b87e.chunk.js",
+    "static/js/3.6818b87e.chunk.js.map": "/static/js/3.6818b87e.chunk.js.map",
     "index.html": "/index.html",
+    "service-worker.js": "/service-worker.js",
+    "service-worker.js.map": "/service-worker.js.map",
     "static/css/2.4c97ca4f.chunk.css.map": "/static/css/2.4c97ca4f.chunk.css.map",
-    "static/css/main.1635e87c.chunk.css.map": "/static/css/main.1635e87c.chunk.css.map",
-    "static/js/2.0691c128.chunk.js.LICENSE.txt": "/static/js/2.0691c128.chunk.js.LICENSE.txt",
-    "static/media/logo.412a2035.jpg": "/static/media/logo.412a2035.jpg"
+    "static/css/main.19d73fd7.chunk.css.map": "/static/css/main.19d73fd7.chunk.css.map",
+    "static/js/2.c79576c6.chunk.js.LICENSE.txt": "/static/js/2.c79576c6.chunk.js.LICENSE.txt",
+    "static/media/half_logo.90d90486.jpg": "/static/media/half_logo.90d90486.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.19f8a85c.js",
+    "static/js/runtime-main.d448870e.js",
     "static/css/2.4c97ca4f.chunk.css",
-    "static/js/2.0691c128.chunk.js",
-    "static/css/main.1635e87c.chunk.css",
-    "static/js/main.b50a5f99.chunk.js"
+    "static/js/2.c79576c6.chunk.js",
+    "static/css/main.19d73fd7.chunk.css",
+    "static/js/main.d23fc9bc.chunk.js"
   ]
 }
